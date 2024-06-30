@@ -1,0 +1,134 @@
+{
+  "main": {
+    "id": "360fdc7be9bb77a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4bd930d9f03f263",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0006a73195b884ee",
+            "type": "leaf",
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "Info/线性代数/01 向量.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "480f85ab95beacfc",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "eb5d3828cbfbf790",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "00efd943b7889942",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f230286a956b98a6",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "71cb059fcbefbe59",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e8520169b94fd43d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "499b56ada92ac0c2",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Info/线性代数/01 向量.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "bdf6c1147b1a98e9",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Info/线性代数/01 向量.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e011b59d127d2015",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Info/线性代数/01 向量.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "pkmer:Open Pkmer Market": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0006a73195b884ee",
+  "lastOpenFiles": []
+}
