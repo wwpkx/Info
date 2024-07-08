@@ -5,7 +5,7 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "/photo",
   "fileSortOrder": "alphabetical",
-  "promptDelete": false,
+  "promptDelete": true,
   "newLinkFormat": "relative",
   "pdfExportSettings": {
     "pageSize": "Letter",
