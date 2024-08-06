@@ -13,7 +13,7 @@
             "state": {
               "type": "mindmapview",
               "state": {
-                "file": "Info/opencv/01.2 基本操作.md"
+                "file": "Info/0 线性代数/02.2.1 初等矩阵.md"
               }
             }
           }
@@ -83,7 +83,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Info/opencv/01.2 基本操作.md",
+            "file": "Info/0 线性代数/02.2.1 初等矩阵.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Info/opencv/01.2 基本操作.md",
+            "file": "Info/0 线性代数/02.2.1 初等矩阵.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -112,7 +112,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Info/opencv/01.2 基本操作.md"
+            "file": "Info/0 线性代数/02.2.1 初等矩阵.md"
           }
         }
       }
@@ -129,8 +129,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0006a73195b884ee",
+  "active": "eb5d3828cbfbf790",
   "lastOpenFiles": [
+    "Info/0 线性代数/08 几何变换.md",
+    "Info/0 线性代数/09 投影.md",
+    "Info/0 线性代数/07 二次型.md",
+    "Info/0 线性代数/06 特征值和特征向量.md",
+    "Info/0 线性代数/05 空间.md",
+    "Info/0 线性代数/04 行列式.md",
+    "Info/0 线性代数/04 矩阵的迹.md",
+    "Info/0 线性代数/03 线性方程组.md",
+    "Info/0 线性代数/02.2.7 格拉姆矩阵G.md",
+    "Info/0 线性代数/02.2.6 阶梯矩阵.md",
+    "Info/0 线性代数/02.2.5 对称矩阵.md",
+    "Info/0 线性代数/02.2.4 相似矩阵.md",
+    "Info/0 线性代数/02.2.3 逆矩阵.md",
+    "Info/0 线性代数/02.1.1 矩阵运算.md",
+    "Info/opencv/01.2 基本操作.md",
     "Info/opencv/01.1 opencv简介.md",
     "Info/opencv/00.1 卷积.md",
     "Info/线性代数/01 向量.md",
