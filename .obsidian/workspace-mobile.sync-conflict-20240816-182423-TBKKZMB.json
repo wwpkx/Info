@@ -13,7 +13,7 @@
             "state": {
               "type": "mindmapview",
               "state": {
-                "file": "Info/傅里叶分析/00 欧拉公式.md"
+                "file": "Info/0 线性代数/02.2.1 初等矩阵.md"
               }
             }
           }
@@ -83,7 +83,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Info/傅里叶分析/00 欧拉公式.md",
+            "file": "Info/0 线性代数/02.2.1 初等矩阵.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Info/傅里叶分析/00 欧拉公式.md",
+            "file": "Info/0 线性代数/02.2.1 初等矩阵.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -112,7 +112,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Info/傅里叶分析/00 欧拉公式.md"
+            "file": "Info/0 线性代数/02.2.1 初等矩阵.md"
           }
         }
       }
@@ -131,10 +131,6 @@
   },
   "active": "eb5d3828cbfbf790",
   "lastOpenFiles": [
-    "Info/傅里叶分析/00 傅里叶分析.md",
-    "Info/傅里叶分析/00 欧拉公式.md",
-    "Info/0 线性代数/10 矩阵分解.md",
-    "Info/0 线性代数/02.2.1 初等矩阵.md",
     "Info/0 线性代数/08 几何变换.md",
     "Info/0 线性代数/09 投影.md",
     "Info/0 线性代数/07 二次型.md",
