@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f4bd930d9f03f263",
+        "id": "283b185c8c7d9414",
         "type": "tabs",
         "children": [
           {
-            "id": "0006a73195b884ee",
+            "id": "71738ea235fbf7af",
             "type": "leaf",
             "state": {
-              "type": "mindmapview",
-              "state": {
-                "file": "Info/傅里叶分析/00 欧拉公式.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Info/傅里叶分析/00 欧拉公式.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Info/傅里叶分析/00 欧拉公式.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -111,9 +107,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Info/傅里叶分析/00 欧拉公式.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -129,10 +123,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb5d3828cbfbf790",
+  "active": "71738ea235fbf7af",
   "lastOpenFiles": [
-    "Info/傅里叶分析/00 傅里叶分析.md",
+    "Info/0 线性代数/03 线性方程组.md",
+    "Info/0 线性代数/01.3.2 向量积.md",
     "Info/傅里叶分析/00 欧拉公式.md",
+    "Info/0 概率论与数理统计/02 一维随机变量及其分布.md",
+    "Info/傅里叶分析/00 傅里叶分析.md",
     "Info/0 线性代数/10 矩阵分解.md",
     "Info/0 线性代数/02.2.1 初等矩阵.md",
     "Info/0 线性代数/08 几何变换.md",
@@ -142,7 +139,6 @@
     "Info/0 线性代数/05 空间.md",
     "Info/0 线性代数/04 行列式.md",
     "Info/0 线性代数/04 矩阵的迹.md",
-    "Info/0 线性代数/03 线性方程组.md",
     "Info/0 线性代数/02.2.7 格拉姆矩阵G.md",
     "Info/0 线性代数/02.2.6 阶梯矩阵.md",
     "Info/0 线性代数/02.2.5 对称矩阵.md",
