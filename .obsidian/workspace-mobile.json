@@ -11,11 +11,9 @@
             "id": "71738ea235fbf7af",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapview",
               "state": {
-                "file": "Info/MatLab/05 数值计算.md",
-                "mode": "source",
-                "source": false
+                "file": "Info/MatLab/05 数值计算.md"
               }
             }
           }
@@ -133,6 +131,8 @@
   },
   "active": "71738ea235fbf7af",
   "lastOpenFiles": [
+    "Info/MatLab/MATLAB科学计算课件/1.1 MATLAB简介.pdf",
+    "Info/MatLab/05 数值计算.md",
     "Info/0 线性代数/03 线性方程组.md",
     "Info/0 线性代数/01.3.2 向量积.md",
     "Info/傅里叶分析/00 欧拉公式.md",
@@ -156,8 +156,6 @@
     "Info/opencv/01.2 基本操作.md",
     "Info/opencv/01.1 opencv简介.md",
     "Info/opencv/00.1 卷积.md",
-    "Info/线性代数/01 向量.md",
-    "Info/opencv/01.3.5 直方图.md",
-    "Info/高等数学/04.2 多元函数微分.md"
+    "Info/线性代数/01 向量.md"
   ]
 }
