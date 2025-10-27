@@ -24,7 +24,7 @@ mindmap-plugin: basic
 		- 属性`（key=value）`
 		- 属性定义`（compatible、reg、interrupts）`
 	-  ​工作流程​​
-		- 编译（DTC）→ 加载（Bootloader）→ 解析（内核）→ 驱动匹配（compatible属性）
+		- 编译（DTC）→ Bootloader 传递 DTB → 解析（内核）→ 驱动匹配（compatible属性）
 	- ​​高级特性​​
 		- 设备树覆盖（动态修改）
 		- 条件属性（动态启用）
