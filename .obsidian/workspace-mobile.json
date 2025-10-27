@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "360fdc7be9bb77a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "283b185c8c7d9414",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71738ea235fbf7af",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Info/MatLab/MATLAB科学计算课件/2.4 矩阵分析与处理.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "480f85ab95beacfc",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "eb5d3828cbfbf790",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "00efd943b7889942",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f230286a956b98a6",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "71cb059fcbefbe59",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e8520169b94fd43d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "499b56ada92ac0c2",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Info/MatLab/MATLAB科学计算课件/2.4 矩阵分析与处理.pdf",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "bdf6c1147b1a98e9",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Info/MatLab/MATLAB科学计算课件/2.4 矩阵分析与处理.pdf",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e011b59d127d2015",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Info/MatLab/MATLAB科学计算课件/2.4 矩阵分析与处理.pdf"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "pkmer:Open Pkmer Market": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "eb5d3828cbfbf790",
+  "lastOpenFiles": [
+    "Info/0 概率论与数理统计/00 概率论与数理统计.md",
+    "Info/0 概率论与数理统计/01 概率论基本概念.md",
+    "Info/0 概率论与数理统计/01.1 事件.md",
+    "Info/0 概率论与数理统计/01.2 事件的概率.md",
+    "Info/MatLab/MATLAB科学计算课件/2.4 矩阵分析与处理.pdf",
+    "Info/MatLab/MATLAB科学计算课件/2.3 MATLAB处理向量.pdf",
+    "Info/MatLab/05 数值计算.md",
+    "Info/MatLab/MATLAB科学计算课件/1.1 MATLAB简介.pdf",
+    "Info/0 线性代数/03 线性方程组.md",
+    "Info/0 线性代数/01.3.2 向量积.md",
+    "Info/傅里叶分析/00 欧拉公式.md",
+    "Info/0 概率论与数理统计/02 一维随机变量及其分布.md",
+    "Info/傅里叶分析/00 傅里叶分析.md",
+    "Info/0 线性代数/10 矩阵分解.md",
+    "Info/0 线性代数/02.2.1 初等矩阵.md",
+    "Info/0 线性代数/08 几何变换.md",
+    "Info/0 线性代数/09 投影.md",
+    "Info/0 线性代数/07 二次型.md",
+    "Info/0 线性代数/06 特征值和特征向量.md",
+    "Info/0 线性代数/05 空间.md",
+    "Info/0 线性代数/04 行列式.md",
+    "Info/0 线性代数/04 矩阵的迹.md",
+    "Info/0 线性代数/02.2.7 格拉姆矩阵G.md",
+    "Info/0 线性代数/02.2.6 阶梯矩阵.md",
+    "Info/0 线性代数/02.2.5 对称矩阵.md",
+    "Info/0 线性代数/02.2.4 相似矩阵.md",
+    "Info/0 线性代数/02.2.3 逆矩阵.md",
+    "Info/0 线性代数/02.1.1 矩阵运算.md",
+    "Info/opencv/01.2 基本操作.md"
+  ]
+}
