@@ -53,6 +53,7 @@ mindmap-plugin: basic
 - 内核汇编入口
 	- 解压缩内核，初始化 CPU / 内存	
 	- 跳转到 start_kernel
+		- 
 - 内核 C 初始化	
 	- 初始化核心组件（内存、调度、设备模型）	
 	- start_kernel完成，rest_init
