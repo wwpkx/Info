@@ -1,0 +1,39 @@
+# 标准
+## POSIX
+- POSIX（Portable Operating System Interface）
+- 是一个操作系统接口标准，定义了应用程序与操作系统之间的接口
+- 包括文件操作、进程管理、线程、信号等
+
+## C 标准
+- C 标准（如 C89、C99、C11）定义了 C 语言的核心库函数
+- POSIX：偏向操作系统层面，定义了与系统交互的接口。
+- C 标准：偏向语言层面，定义了通用的库函数。
+
+# Snap
+- **把应用软件和环境一起打包**，而不再需要依赖各种库
+- 容器化封装​，Snap 应用自带运行环境，包含应用代码、依赖库和配置文件
+- 沙盒安全机制​
+- 跨平台兼容性​
+	- 开发者一次打包即可覆盖多平台
+	- 例如，同一版 Firefox Snap 包可在 Ubuntu 22.04 和 Fedora 38 上无缝运行
+
+# 内存管理单元
+- 在Linux 2.6.11之前，使用了三级页表PGD、PMD和PTE
+- 从Linux 2.6.11开始，为了配合64位CPU的体系结构，使用了4级页表PGD、PUD、PMD和 PTE。
+
+![alt text](../../photo/image-12.png)
+
+## TLB
+- 快表
+- Translation Lookaside Buffer 转换旁路缓存
+
+## TTW
+- Translation Table walk:即转换表漫游
+- TTW成功后，结果应写入TLB中
+![alt text](../../photo/image-11.png)
+
+
+## buddy算法（伙伴系统）
+- 是Linux内核的基础内存分配机制
+- 将内存分为2的幂次大小的页
+![alt text](../../photo/image-16.png)
