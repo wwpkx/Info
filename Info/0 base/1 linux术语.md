@@ -19,7 +19,7 @@
 
 # 内存管理单元
 - 在Linux 2.6.11之前，使用了三级页表PGD、PMD和PTE
-- 从Linux 2.6.11开始，为了配合64位CPU的体系结构，使用了4级页表PGD、PUD、PMD和 PTE。
+- 从Linux 2.6.11开始，为了配合64位CPU的体系结构，使用了4级页表PGD、PUD、PMD和PTE。
 
 ![alt text](../../photo/image-12.png)
 

@@ -24,8 +24,12 @@
 # musl libc
 ## musl libc库简介
 - http://musl.libc.org
-- **支持 POSIX 和 C 标准定义**，专为**嵌入式系统和资源受限的环境**设计
-- **POSIX 是标准，musl 是实现**
+- **支持 POSIX 和 C标准**，专为**嵌入式系统和资源受限的环境**设计
+- **Linux内核部分支持POSIX**
+- **边界是系统调用**
+- musl实现的文件操作标准
+   - POSIX： open、read、write、close 等
+   - c标准： fopen、fread、fwrite、fclose等
 
 ## musl libc 与其他 C 标准库的对比
 1. 与 glibc
