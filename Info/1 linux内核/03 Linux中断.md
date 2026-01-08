@@ -12,8 +12,8 @@ mindmap-plugin: basic
 - **非中断上下文**用于普通任务的执行，可以阻塞，适合处理复杂逻辑或延迟任务。
 
 ## 顶半部 和 底半部
-- **顶半部**用于快速响应中断，完成紧急任务，保证系统的实时性。
-- **底半部**
+- **顶半部（中断上文）**用于快速响应中断，完成紧急任务，保证系统的实时性。
+- **底半部（中断下文）**
     - 用于处理复杂任务，降低顶半部的执行时间，提升系统整体性能。
     - 底半部虽然是中断处理的一部分，但它的执行环境已经脱离了中断上下文，因此更准确地说，它是中断处理的延续部分，而不是严格意义上的中断内容。
     - 实现机制
@@ -46,42 +46,21 @@ mindmap-plugin: basic
 4. 中断共享标志：
    - 注册中断时需要使用`IRQF_SHARED`标志，表明该中断号可以被多个设备共享。
 
-## jiffies
-- jiffies 是 Linux 内核中一个全局变量，用于记录系统**自启动以来的时钟中断次数**
-- jiffies 的单位是时钟中断（tick），每次时钟中断发生时，jiffies 的值会递增
-- jiffies 是一个无符号长整型变量（unsigned long），在 32 位系统上为 4 字节，在 64 位系统上为 8 字节。
-- 由于 jiffies 是一个无符号变量，它会在达到最大值后回绕（溢出）为 0。
-- 相关宏和函数
-    - jiffies：全局变量，记录当前的时钟中断次数
-    - msecs_to_jiffies(ms)
-    - jiffies_to_msecs
-    - time_after 和 time_before
-    - schedule_timeout
-
-## 内核定时器
-- 定时器的回调函数在软中断上下文中执行，不能阻塞或睡眠
-- 内核定时器使用链表管理所有定时器，定时器到期时会触发回调函数。
-- 使用
-    - 初始化定时器，timer_setup
-    - 设置定时器的超时时间和回调函数，mod_timer
-    - 启动定时器，add_timer
-    - 在不需要时删除定时器，del_timer
-
-## delayed_work
+## 内核时间管理
+- 节拍率
+    - `# define HZ CONFIG_HZ`
+- jiffies
+    - 是内核中一个全局变量，用于记录系统**自启动以来的时钟中断次数**
+    - 由于 jiffies 是一个无符号变量，它会在达到最大值后回绕（溢出）为 0。
+- 内核定时器
+    - 定时器的回调函数在**软中断上下文**中执行，不能阻塞或睡眠
+    - 内核定时器使用链表管理所有定时器，定时器到期时会触发回调函数。  
+- delayed_work
 - 是 workqueue 的一种扩展，支持延迟执行
 - 通过指定延迟时间（以 jiffies 为单位）来控制任务的执行时间
-- 相关函数
-    - INIT_DELAYED_WORK(delayed_work, work_handler)：初始化 delayed_work 并绑定处理函数。
-    - schedule_delayed_work(delayed_work, delay)：将延迟任务添加到工作队列，delay 为延迟时间（单位为 jiffies）。
-    - cancel_delayed_work(delayed_work)：取消未执行的延迟任务。
-    - mod_delayed_work(workqueue, delayed_work, delay)：修改延迟时间并重新调度任务 
-
-## 内核延时
-- 忙等待（Busy Waiting）
-    - 常用函数：udelay 和 ndelay。
-    - 特点：精度高，占用 CPU，效率低。
-- 睡眠延时（Sleep Delay）  
-    - 常用函数：msleep、ssleep 和 usleep_range。
-    - 特点：
+- 内核延时
+    - 忙等待（Busy Waiting）
+        - 特点：精度高，占用 CPU，效率低。
+    - 睡眠延时（Sleep Delay）  
         - 不占用 CPU。
-        - 精度较低，适合毫秒级延时。    
+        - 精度较低，适合毫秒级延时。  
